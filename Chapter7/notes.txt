@@ -1,0 +1,1 @@
+To run this site the 'info' database must be created with the steps included in chapter 7. 

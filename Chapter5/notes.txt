@@ -1,0 +1,15 @@
+The document root for this site is: 
+/var/www/html/ch05
+If you use another one update your document root in the source code of screenshot2.php. 
+The following commands are required to run from the terminal (also update the document root with yours):
+
+$ sudo chown www-data:www-data /var/www/html/ch05 
+$ sudo  touch /var/www/html/ch05/lock.txt
+$ sudo chown www-data:www-data /var/www/html/ch05/lock.txt
+
+install the xvfb and wkhtmltopdf:
+
+$ sudo apt-get install xvfb
+$ sudo apt-get install wkhtmltopdf
+
+

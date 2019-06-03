@@ -1,0 +1,28 @@
+
+The following Linux command line programs are used:
+ 
+   server.php 
+   client.php
+
+   From the first Linux terminal enter:
+   php ./server.php
+   From the second Linux terminal enter:
+   php ./client.php
+
+The following sites are used:
+
+1. index.php runs with ports.php
+
+2. index_V2.php runs alone
+
+3. index2.php runs with qotd.php
+
+4. message.php runs with client.php and connects to the terminal program server.php.
+   Invoke server.php from the terminal as:
+   php ./server.php 
+
+In the source code of the programs replace the private IP address of the web server used: 
+192.168.1.100
+with yours.
+
+

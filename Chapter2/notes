@@ -1,0 +1,10 @@
+There are two main projects for this chapter. 
+
+1. The first project uses file addition2.php
+
+2. The second project uses files validate.php, process.php, and code.txt.
+
+Create file code.txt at the document root (/var/www/html in this example) and change the owner of the file:
+
+$ sudo touch /var/www/html/code.txt
+$ sudo chown www-data:www-data /var/www/html/code.txt

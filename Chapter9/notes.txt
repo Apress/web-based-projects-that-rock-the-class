@@ -1,0 +1,1 @@
+To run the site create the 'login' MySQL database with the steps included in chapter 9 of the book.
